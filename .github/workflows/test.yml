@@ -15,6 +15,6 @@ jobs:
     - name: Install dependencies
       run: |
         make install
-    - name: Run tests
+    - name: Test with pytest
       run: |
         make test
